@@ -1,6 +1,6 @@
 ## Installation
 
-* Clone this repo and run `npm install` then `npm run config`
+* Clone this repo and run `npm install`
 
 ## Create database
 
@@ -8,9 +8,7 @@
 
 ## Configure .env
 
-* Import the database sql/prueba.sql
-
-`
+```bash
 MSQLHOST=
 MSQLUSER=
 MSQLDATABASE=
@@ -20,7 +18,8 @@ MSQLPORT=
 SWAPI_URL=https://swapi.py4e.com/api/
 
 NODE_ENV=local
-`
+```
+
 
 ## Test locally
 
