@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "8d65799c-8eb5-47bd-96f5-08bd5f4f1886",
+		"name": "Test SoftTek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29622876"
+	},
+	"item": [
+		{
+			"name": "Save Specie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "d41d8cd98f00b204e9800998ecf8427e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Human\",\n    \"clasificacion\": \"mammal\",\n    \"designacion\": \"sentient\",\n    \"altura_promedio\": \"180\",\n    \"color_piel\": \"caucasian, black, asian, hispanic\",\n    \"color_pelo\": \"blonde, brown, black, red\",\n    \"color_ojos\": \"brown, blue, green, hazel, grey, amber\",\n    \"promedio_vida\": \"120\",\n    \"habitad\": \"https://swapi.py4e.com/api/planets/9/\",\n    \"idioma\": \"Galactic Basic\",\n    \"url\": \"https://swapi.py4e.com/api/species/1/\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/staging/specie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"staging",
+						"specie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Species",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "d41d8cd98f00b204e9800998ecf8427e",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/staging/species",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"staging",
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Species Swapi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "d41d8cd98f00b204e9800998ecf8427e",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/staging/species",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"staging",
+						"species"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
