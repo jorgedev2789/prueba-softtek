@@ -6,6 +6,22 @@
 
 * Import the database sql/prueba.sql
 
+## Configure .env
+
+* Import the database sql/prueba.sql
+
+`
+MSQLHOST=
+MSQLUSER=
+MSQLDATABASE=
+MSQLPASSWORD=
+MSQLPORT=
+
+SWAPI_URL=https://swapi.py4e.com/api/
+
+NODE_ENV=local
+`
+
 ## Test locally
 
 * `npm run dev` will run the function directly without serverless framework for fast test on your local machine
